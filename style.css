@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(46, 42, 42);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 255, 255)
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url(../img/tenis1.jpg);
+}
+
+#img-2{
+    background-image: url(../img/tenis2.jpg);
+}
+
+#img-3{
+    background-image: url(../img/tenis3.jpg);
+}
+
+#img-4{
+    background-image: url(../img/tenis4.jpg);
+}
+
+#img-5{
+    background-image: url(../img/tenis5.jpg);
+}
+
+#img-6{
+    background-image: url(../img/tenis6.jpg);
+}
+
+footer{
+    background-color: rgb(46, 42, 42);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+    border-top: 5px solid rgb(46, 42, 42);
+}
+
+#btn-compra{
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#btn-compra:hover {background-color: rgb(155, 138, 138)}
+
+#btn-compra:active {
+    transform: translateY(4px);
+}
+
+.bold{
+    font-weight: bold;
+}
